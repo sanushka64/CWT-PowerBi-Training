@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#142138" />
+  <meta name="description" content="Creative Web Technology Basic Power BI Training. Download Power BI Desktop and the practice workbook, then follow the guided steps and copy DAX measures." />
+  <title>Basic Power BI Training | Creative Web Technology</title>
+  <link rel="icon" type="image/jpeg" href="assets/cwt-logo.jpg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Training navigation">
+      <div class="brand">
+        <div class="brand-mark"><img src="assets/cwt-logo.jpg" alt="Creative Web Technology logo" /></div>
+        <div><strong>Creative Web<br />Technology</strong><span>Power BI training</span></div>
+      </div>
+      <div class="sidebar-scroll">
+        <p class="nav-eyebrow">TRAINING HUB</p>
+        <nav id="mainNav" class="nav-list" aria-label="Main sections">
+          <button class="nav-link" data-route="home"><span class="nav-icon">⌂</span>Overview</button>
+          <button class="nav-link" data-route="setup"><span class="nav-icon">↓</span>Downloads</button>
+          <button class="nav-link" data-route="steps"><span class="nav-icon">▤</span>Step-by-step guide</button>
+          <button class="nav-link" data-route="dax"><span class="nav-icon">{ }</span>DAX queries</button>
+        </nav>
+        <div class="nav-divider"></div>
+        <div class="nav-heading"><p class="nav-eyebrow">FOLLOW THE STEPS</p><span id="sideProgressSmall">0/11</span></div>
+        <div class="lesson-menu" id="stepMenu"></div>
+      </div>
+      <div class="sidebar-bottom">
+        <div class="mini-progress"><span>YOUR PROGRESS</span><strong id="sidebarPercent">0%</strong></div>
+        <div class="progress-track"><div id="sidebarBar" class="progress-fill"></div></div>
+        <p>Steps you complete are saved in this browser.</p>
+      </div>
+    </aside>
+    <div class="main-region">
+      <header class="topbar">
+        <button class="mobile-menu" id="menuToggle" aria-label="Open navigation">☰</button>
+        <div class="topbar-title"><span class="eyebrow">CREATIVE WEB TECHNOLOGY</span><span>Basic Power BI Training <span class="topbar-dot">·</span> Revenue Analysis</span></div>
+        <div class="top-actions"><span class="top-status"><span class="status-dot"></span>Hands-on guide</span></div>
+      </header>
+      <main id="view" tabindex="-1"></main>
+      <footer class="footer">
+        <div class="footer-left"><img src="assets/cwt-logo.jpg" alt="" /><div><strong>Creative Web Technology</strong><span>Together Across the World</span></div></div>
+        <div class="footer-center">Basic Power BI Training · Practical learning resources</div>
+        <div class="footer-links"><a href="https://cwtweb-production.up.railway.app/#home" target="_blank" rel="noopener noreferrer">Company website ↗</a><a href="https://learn.microsoft.com/en-us/power-bi/fundamentals/desktop-get-the-desktop" target="_blank" rel="noopener noreferrer">Microsoft Power BI ↗</a></div>
+      </footer>
+    </div>
+  </div>
+  <div class="toast" id="toast" aria-live="polite"></div>
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

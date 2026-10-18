@@ -1,0 +1,8 @@
+{
+  "name": "cwt-powerbi-training",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Creative Web Technology - Basic Power BI hands-on training website",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
